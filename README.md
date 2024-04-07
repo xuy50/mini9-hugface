@@ -1,6 +1,8 @@
 # yx248-mini9
 
+Briefly describe your project, including its purpose and any unique features or capabilities. Mention the integration with Hugging Face models and the use of Streamlit for the web interface.
 
+[My Hugging Face Streamlit App link](http://18.216.155.208:8501/)
 
 ## Getting Started
 
@@ -116,6 +118,18 @@ login()
 
 - Simplicity: The beauty of using pipeline is that it takes care of downloading the model and its associated tokenizer (responsible for converting input text into a format the model can understand) and setting them up for the task you've specified. This simplification allows developers to use sophisticated models without needing deep understanding of their inner workings.
 
-## Result
-Example Output for front end page and the generated text:
+
+## Deploying on AWS
+
+After complete the funcion, deploy it on the AWS. Ensure your AWS instance has more than 1GB of RAM to accommodate the memory requirements of installing `torch` and `tensorflow`.
+
+- [Deploy guide](https://www.youtube.com/watch?v=DflWqmppOAg)
+- [Deploy guide GitHub repository](https://github.com/entbappy/Deploy-Streamlit-app-on-EC2-instance)
+
+
+## Example Output
+
+Here is my App link: [AWS EC2 Instances App Link](http://18.216.155.208:8501/)
+
+Here's what the app looks like, along with sample generated text:
 ![example result](images/result.png)
