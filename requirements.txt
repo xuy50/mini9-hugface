@@ -1,0 +1,5 @@
+### dependency
+streamlit
+transformers
+torch
+tensorflow
